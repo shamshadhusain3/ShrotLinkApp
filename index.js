@@ -7,7 +7,7 @@ const routes=require('./routes/routes');
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 
-app.use('https://shortlinkapp.onrender.com/url',routes)
+app.use('https://shortlinkapp.onrender.com/',routes)
 
 app.set('view engine','ejs')
 
