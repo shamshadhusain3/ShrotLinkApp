@@ -23,8 +23,8 @@ class urlrouter{
          visitedHistory:[]
  
      })
-     const shortLink=`http://localhost:3000/${shortId}`
-     const shortLinkH=`http://localhost:3000/analytics/${shortId}`
+     const shortLink=`https://shortlinksapp.onrender.com/${shortId}`
+     const shortLinkH=`https://shortlinksapp.onrender.com/analytics/${shortId}`
  
  res.render('short',{shortLink,shortLinkH,request})
     }else{
