@@ -8,7 +8,7 @@ app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 
 
-app.use('https://shortlinkapp.onrender.com/',routes)
+app.use('/',routes)
 
 
 app.set('view engine','ejs')
